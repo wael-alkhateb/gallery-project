@@ -22,6 +22,9 @@ li a{
     text-decoration: none;
     color: olivedrab;
 }
+li a:hover{
+    color: darkgoldenrod;
+}
 
 main{
     display: grid;
@@ -60,8 +63,8 @@ div img{
 .foto1::after{
     content: "Gallery";
     position: absolute;
-    top: 60%;
-    left: 50%;
+    top: 70vh;
+    left: 48vw;
     transform: translate(-50%,-50%);
     color: white;
     font-size: 40px;
