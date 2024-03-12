@@ -9,6 +9,13 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 100px;
+    background-color: darkkhaki;
+}
+h1{
+    font-family: "Pacifico";
+    color: darkred;
+    font-size: 50px;
+    margin-left: 20px;
 }
 ul{
     display: block;
@@ -17,6 +24,7 @@ ul li{
     list-style: none;
     display: inline-block;
     margin-left: 5rem;
+    font-size: 30px;
 }
 li a{
     text-decoration: none;
@@ -24,6 +32,11 @@ li a{
 }
 li a:hover{
     color: darkgoldenrod;
+}
+input{
+    width: 10rem;
+    height: 2rem;
+    margin-right: 20px;
 }
 
 main{
