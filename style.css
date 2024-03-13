@@ -17,9 +17,11 @@ h1{
     color: #FFFAFA;
     font-size: 50px;
     margin-left: 20px;
+    transition: background-color 0.3s, transform 0.3s;
 }
 h1:hover{
     color: #008080;
+    transform: translateY(-3px);
 }
 /*header menu*/
 ul{
@@ -36,10 +38,12 @@ li a{
     color: #FFFAFA;
     transition: background 0.5s ease-in,
     color 1s linear;
+    transition: background-color 0.3s, transform 0.3s;
 }
 li a:hover{
     color: #008080;
     background-color:#708090 ;
+    transform: translateY(-3px);
 }
 /*search input*/
 input{
